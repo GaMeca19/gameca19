@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&A Méca 19 - Mécanique à domicile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-image: url('travailleur-de-service-de-voiture-musculaire-reparant-le-vehicule.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 4em 1em;
+            position: relative;
+            z-index: 1;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: -1;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+            color: white;
+        }
+        nav {
+            background-color: #111;
+            color: white;
+            padding: 0.5em 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            display: none;
+            transition: opacity 0.3s ease;
+            padding: 2em;
+            max-width: 900px;
+            margin: auto;
+        }
+        section.active {
+            display: block;
+            opacity: 1;
+        }
+        h2 {
+            border-bottom: 2px solid #222;
+            padding-bottom: 0.5em;
+        }
+        .contact {
+            background-color: #eee;
+            padding: 1em;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            margin-top: 1em;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        
+        <h1>BIENVENUE CHEZ G&A MÉCA 19</h1>
+        <p style="color:white;">Mécanique à domicile en Corrèze (19)</p>
+        <p><em style="color:white;">Nous intervenons directement chez vous pour l'entretien courant, les diagnostics et les réparations simples de votre véhicule. Professionnalisme, gain de temps, et transparence au rendez-vous.</em></p>
+    </header>
+
+    <nav>
+        <a href="#apropos">Accueil</a>
+        <a href="#fonctionnement">Comment ça marche</a>
+        <a href="#services">Tarifs & Prestations</a>
+        <a href="#zone">Zone d'intervention</a>
+        <a href="#avis">Avis clients</a>
+        <a href="#contact">Nous contacter</a>
+        <a href="#faq">FAQ</a>
+        <a href="#legal">Mentions légales</a>
+    </nav>
+
+<section id="services">
+    <h2>Tarifs & Prestations</h2>
+    <table style="width:100%; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color: #f0f0f0;">
+                <th style="padding: 10px; border: 1px solid #ccc;">Prestation</th>
+                <th style="padding: 10px; border: 1px solid #ccc;">Tarif</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Vidange + filtre</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">à partir de 55 €</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Changement de batterie</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">à partir de 30 €</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Remplacement ampoules / essuie-glaces</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">dès 15 €</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Pose de plaques d’immatriculation</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">20 €</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Pré-contrôle technique complet</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">sur devis</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="margin-top:1.5em;">Pour consulter l'ensemble de nos prestations détaillées avec tous les tarifs, vous pouvez télécharger notre document complet ici :<br>
+    <a href="Tarifs_Mecanique_A_Domicile.docx.pdf" target="_blank">📄 Télécharger le PDF complet des prestations</a></p>
+</section>
+
+    <section id="apropos" class="active">
+    <h2>Notre mission</h2>
+    <p>G&A Méca 19 est née de notre volonté d’apporter un service de mécanique accessible, transparent et humain directement à domicile, en Corrèze.</p>
+    <p>Grâce à notre expertise, notre réactivité et notre proximité, nous vous proposons des prestations adaptées à vos besoins, sans les contraintes d’un garage traditionnel.</p>
+    
+    <h2>Qui sommes-nous ?</h2>
+    <p>Nous sommes Gaëlle & Alexandre, fondateurs de G&A Méca 19, un service de mécanique à domicile en Corrèze.</p>
+
+    <p><strong>Alexandre</strong> est autodidacte, passionné de mécanique, et c’est lui qui assure les interventions sur le terrain. Rigoureux, appliqué et attentif à la sécurité, il veille à ce que chaque prestation soit effectuée dans les meilleures conditions, avec sérieux et pédagogie.</p>
+
+    <p><strong>Gaëlle</strong> est diplômée en mécanique automobile et passionnée par les sports mécaniques. Elle gère toute la partie organisationnelle : prise de rendez-vous, suivi client, comptabilité et communication. Elle assure le bon déroulement des démarches et reste votre interlocutrice principale avant et après l’intervention.</p>
+
+    <p>Nous formons une équipe complémentaire, motivée par l’idée d’apporter un service local, familial, transparent et efficace, à votre porte.</p>
+</section>
+
+    
+    </section>
+
+    <section id="avis">
+    <h2>Avis clients</h2>
+    <p>Notre page Google Business est en cours de mise en ligne.</p>
+    <p>Dès qu'elle sera visible publiquement, les avis clients seront automatiquement affichés ici.</p>
+    <p>Merci de votre patience !</p>
+</section>
+
+    <section id="zone">
+        <h2>Zone d'intervention</h2>
+        <p>Nous intervenons autour de Cornil, Tulle, Brive-la-Gaillarde et les communes voisines.</p>
+        <p>Des frais de déplacement peuvent s'appliquer selon la commune :
+        <ul>
+            <li>Gratuit dans un rayon de 10 km autour de Cornil</li>
+            <li>5 à 15 € pour les zones plus éloignées (indiqué sur le devis)</li>
+        
+N'hésitez pas à nous contacter pour vérifier la faisabilité.</p>
+    </section>
+
+    <section id="fonctionnement">
+        <h2>Comment ça marche ?</h2>
+        <ol>
+            <li>Vous nous contactez (par mail, téléphone ou réseaux sociaux).</li>
+            <li>Nous vous envoyons un devis personnalisé (CGV incluses).</li>
+            <li>Vous réglez l’intervention à l’avance (CB via lien, espèces ou virement).</li>
+            <li>Nous intervenons à la date convenue.</li>
+            <li>Nous intervenons uniquement si les conditions de sécurité sont réunies : sol plat, accès dégagé, autorisation si lieu privé.</li>
+        </ol>
+        <h3>Conditions de prestations</h3>
+        <ul>
+            <li><strong>Zone d'intervention :</strong> G&A Méca 19 intervient uniquement à domicile en Corrèze. Des frais de déplacement peuvent s'appliquer selon la commune (voir section "Zone d'intervention").</li>
+            <li><strong>Devis et paiement :</strong> Un devis est établi avant toute intervention. Il doit être accepté et réglé en amont (CB via lien sécurisé, virement ou espèces). L'acceptation du devis vaut engagement.</li>
+            <li><strong>Lieu d'intervention :</strong> L’intervention est possible uniquement sur un sol plat, stable, dégagé et sécurisé. Les interventions ne sont pas autorisées sur les parkings d’entreprise, voies publiques ou tout autre lieu présentant un risque légal ou de sécurité. Le lieu d’intervention doit permettre de garantir des conditions de travail sûres pour le professionnel et le client.</li>
+            <li><strong>Présence du client :</strong> Le client (ou un représentant) doit être présent lors de l’intervention, sauf accord contraire. La carte grise du véhicule doit obligatoirement être présentée au début de l'intervention.</li>
+            <li><strong>Fourniture des pièces :</strong> G&A Méca 19 fournit les pièces nécessaires à l’intervention, sauf cas particulier validé au préalable.</li>
+            <li><strong>Services exclus :</strong> Les interventions lourdes (moteur, distribution, embrayage, carrosserie-peinture) ne sont pas proposées.</li>
+            <li><strong>Garantie :</strong> La main-d'œuvre est garantie 3 mois (hors pièces). Aucune garantie sur les pièces fournies exceptionnellement par le client.</li>
+            <li><strong>Annulation :</strong> Toute annulation doit être signalée au moins 24h à l’avance. En cas d’annulation répétée ou injustifiée, l’entreprise se réserve le droit de refuser de nouvelles interventions.</li>
+            <li><strong>Respect et sécurité :</strong> L’entreprise peut refuser ou interrompre une intervention si les conditions de sécurité ne sont pas réunies, ou en cas de comportement inapproprié.</li>
+            <li><strong>Données personnelles :</strong> Les données collectées via le formulaire ou les devis ne sont jamais revendues. Elles servent uniquement à la gestion des interventions.</li>
+        </ul>
+
+</section>
+
+    <section id="contact">
+    <h2>Nous contacter</h2>
+    <p>Pour toute demande de renseignement ou de devis, merci de nous fournir :</p>
+    <ul>
+        <li>La plaque d'immatriculation du véhicule</li>
+        <li>Le modèle précis et la motorisation</li>
+        <li>Le type d'intervention souhaité</li>
+    </ul>
+    <form action="https://formspree.io/f/xgvkyarl" method="POST" style="margin-top:2em;" onsubmit="return showConfirmation();">
+        <input type="hidden" name="_subject" value="Nouveau message depuis le site G&A Méca 19">
+        <input type="hidden" name="_redirect" value="#contact">
+        <label for="name">Nom :</label><br>
+        <input type="text" id="name" name="name" required style="width:100%; padding:8px;"><br><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required style="width:100%; padding:8px;"><br><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="5" required style="width:100%; padding:8px;"></textarea><br><br>
+        <button type="submit" style="padding:10px 20px; background:#0066cc; color:white; border:none; border-radius:4px;">Envoyer</button>
+    </form>
+</section>
+
+    <section id="faq">
+        <h2>Questions fréquentes (FAQ)</h2>
+        <ul>
+            <li><strong>Où se déroulent les interventions ?</strong><br>Uniquement à domicile, dans un lieu sécurisé, stable et plat. Pas de parking public ou d'entreprise.</li>
+            <li><strong>Intervenez-vous s'il pleut ?</strong><br>Pas si l'intervention est risquée ou impossible en extérieur. Si vous disposez d’un garage ou abri couvert, l’intervention peut être maintenue.</li>
+            <li><strong>Puis-je annuler ou déplacer mon RDV ?</strong><br>Oui, en prévenant au moins 24h à l’avance. En cas d’annulation tardive, des frais ou un refus de prise en charge future peuvent s’appliquer.</li>
+            <li><strong>Quels moyens de paiement acceptez-vous ?</strong><br>CB via lien sécurisé, virement ou espèces. Le paiement est requis avant l'intervention.</li>
+            <li><strong>Dois-je être présent(e) ?</strong><br>Oui, vous ou une personne mandatée devez être présent(e) avec la carte grise du véhicule.</li>
+            <li><strong>Intervenez-vous le week-end ?</strong><br>Oui, uniquement sur demande et selon disponibilité.</li>
+            <li><strong>Faites-vous un suivi après intervention ?</strong><br>Oui. Vous pouvez nous contacter à tout moment après l’intervention. La main-d'œuvre est garantie 3 mois.</li>
+            <li><strong>Fournissez-vous les pièces ?</strong><br>Oui, G&A Méca 19 fournit les pièces nécessaires à l’intervention. Elles sont sélectionnées avec soin et bénéficient de la garantie constructeur ou fournisseur. En cas d'accord exceptionnel pour que le client fournisse ses pièces, aucune garantie ne sera appliquée sur celles-ci ni sur l’intervention associée.</li>
+        </ul>
+    </section>
+<section id="legal">
+    <h2>Mentions légales & CGV</h2>
+    <p>Responsable de la publication : Gaëlle Constant<br>
+    Statut : Micro-entreprise<br>
+    SIRET : 943 481 168 00012<br>
+    Adresse : Cornil (19150), Corrèze<br>
+    Email : ga.mecauto19@gmail.com</p>
+
+    <p><strong>Hébergement :</strong><br>
+    Ce site est hébergé gratuitement via GitHub Pages / Netlify (à définir).</p>
+
+    <p><strong>Conditions Générales de Vente :</strong></p>
+    <p>Vous pouvez consulter nos <a href="Conditions%20g%C3%A9n%C3%A9rales%20de%20prestations%20%E2%80%93%20G&A%20M%C3%A9ca%2019.pdf" target="_blank">📄 CGV complètes (PDF)</a> en cliquant ici. Elles sont également jointes à chaque devis transmis.</p>
+</section>
+<footer>
+    <img src="logo_ga_meca19.png" alt="Logo G&A Méca 19" style="height:90px; margin-bottom:10px;">
+    <div style="margin-top:1em;">
+        <a href="https://www.facebook.com/profile.php?id=61575188226075" target="_blank" style="margin: 0 10px; color: white;">Facebook</a>
+        <a href="https://www.instagram.com/ga_meca.19/" target="_blank" style="margin: 0 10px; color: white;">Instagram</a>
+    <a href="https://www.tiktok.com/@ga.meca19?is_from_webapp=1&sender_device=pc" target="_blank" style="margin: 0 10px; color: white;">TikTok</a>
+    </div>
+    <p style="margin-top:1em;">&copy; 2025 G&A Méca 19 - Tous droits réservés</p>
+    <a href="#contact" onclick="showSection('contact');" style="position: fixed; bottom: 20px; right: 20px; background: #0066cc; color: white; padding: 10px 15px; border-radius: 8px; text-decoration: none; font-weight: bold; z-index: 999;">
+        Demander un devis
+    </a>
+<script>
+        function showConfirmation() {
+            alert("✅ Votre message a bien été envoyé. Merci !");
+            return true;
+        }
+    </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("nav a");
+
+        window.showSection = function(id) {
+    const sections = document.querySelectorAll("section");
+    sections.forEach(sec => sec.classList.remove("active"));
+    const target = document.getElementById(id);
+    if (target) {
+        target.classList.add("active");
+        target.scrollIntoView({ behavior: "smooth" });
+    }
+};
+
+        navLinks.forEach(link => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const id = this.getAttribute("href").replace("#", "");
+                showSection(id);
+            });
+        });
+
+        showSection("apropos");
+    });
+</script>
+</body>
+</html>
